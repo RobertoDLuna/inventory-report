@@ -1,6 +1,6 @@
 from inventory_report.importer.importer import Importer
-import xmltodict
 from typing import List, Dict
+import xmltodict
 
 
 class XmlImporter(Importer):
