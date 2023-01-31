@@ -10,4 +10,5 @@ class CsvImporter(Importer):
                 raise ValueError("Arquivo inválido")
             else:
                 data = csv.DictReader(file, delimiter=",", quotechar='"')
+
             return list(data)
